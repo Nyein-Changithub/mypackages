@@ -1,5 +1,5 @@
 {
-	"name": "mypack/mypackage",
+	"name": "hello/mypackage",
 	"description": "This is my package",
 	"type": "library",
 	"license": "MIT",
@@ -9,13 +9,13 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Mypack\\MyPackage\\": "src/"
+			"Hello\\MyPackage\\": "src/"
 		}
 	},
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Mypack\\MyPackage\\MyPackageProvider"
+				"Hello\\MyPackage\\MyPackageProvider"
 			]
 		}
 	},

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mypack\MyPackage;
+namespace Hello\MyPackage;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;

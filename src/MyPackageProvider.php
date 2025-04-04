@@ -1,6 +1,6 @@
 <?php
 
-namespace Mypack\MyPackage;
+namespace Hello\MyPackage;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -11,7 +11,7 @@ class MyPackageProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->make('Mypack\MyPackage\MyPackageController');
+        $this->app->make('Hello\MyPackage\MyPackageController');
         $this->loadViewsFrom(__DIR__. '/views','myPackage');
     }
 
