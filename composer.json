@@ -1,5 +1,5 @@
 {
-	"name": "hello/mypackage",
+	"name": "nyeinchangithub/mypackage",
 	"description": "This is my package",
 	"type": "library",
 	"license": "MIT",
@@ -9,13 +9,13 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Hello\\MyPackage\\": "src/"
+			"NyeinChangithub\\MyPackage\\": "src/"
 		}
 	},
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Hello\\MyPackage\\MyPackageProvider"
+				"NyeinChangithub\\MyPackage\\MyPackageProvider"
 			]
 		}
 	},
